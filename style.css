@@ -1,0 +1,33 @@
+body{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+}
+.right {
+  background-color: blue;
+  height: 1600px;
+  margin: 15px;
+}
+.left {
+  background-color: white;
+  margin: 15px;
+}
+
+.left-content{
+  background: linear-gradient(45deg, green, blue);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 10px;
+  padding: 3px;
+}
+
+.inner-left{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+}
