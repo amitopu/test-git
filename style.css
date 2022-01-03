@@ -9,7 +9,8 @@ body{
   margin: 10px;
 }
 .right {
-  background-color: blue;
+  color: red;
+  background-color: #00ffaa;
   height: 1600px;
   margin: 15px;
 }
@@ -19,7 +20,7 @@ body{
 }
 
 .left-content{
-  background: linear-gradient(45deg, green, blue);
+  background: linear-gradient(45deg, #00ff9d, #00f7ff);
   position: sticky;
   position: -webkit-sticky;
   top: 10px;
